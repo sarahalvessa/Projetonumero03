@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(rgba(42,58,74,0.85),rgba(42,58,74,0.85)), url(../imagens/modelo2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+.header{
+    padding: 30px 0px 0px 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header img{
+    height: 50px;
+}
+.header span{
+    background-color: #fd4a47;
+    padding: 5px;
+}
+.header span:hover{
+    color: white;
+}
+.header nav ul{
+    list-style-type: none;
+}
+.header nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 30px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.header nav ul li a:hover{
+    color: #fd4a47;
+    transition: all .2s ease-in-out;
+}
+.main{
+    margin-top: 180px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+}
+.section{
+    display: flex;
+    align-items: center;
+}
+.block{
+    width: 3px;
+    height: 19px;
+    background-color: #fd4a47;
+
+}
+.main h1{
+    font-size: 100px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    width: 100%;
+    margin: -10px 0px -20px 0px;
+    padding-left:11px;
+}
+.main p{
+    color: #fff;
+    padding-left: 11px;
+    font-size: 14px;
+    width: 360px;
+}
+.paragrafo{
+    margin-left: 2px;
+}
+.main a{
+    border: 1px solid #fd4a47;
+    width: 100px;
+    padding: 10px 20px;
+    margin-left: 13px;
+    background-color: #fd4a47;
+    color: #fff;
+    text-decoration: none;
+}
+.main a:hover{
+    background-color: transparent;
+    transition: all .2s ease-in-out;
+}
